@@ -1,0 +1,98 @@
+class Positiveno{
+          
+        public static void main(String args[]){
+            
+	
+	int num = 4;
+        
+	if(num==0){
+              System.out.print("you entered 0");
+        }
+	else if(num>0){
+		System.out.println("Positive no");
+	}
+	else{
+		System.out.println("Negative no");
+	}
+  }	
+	
+}
+
+class OddEven{
+       public static void main(String args[]){
+             
+           int num1= 9;
+
+           if(num1%2==0){
+                   System.out.println("Number is even");
+           }
+           else{
+                   System.out.println("Number is odd");          
+           }
+    }
+}
+
+
+class GoodMornig{
+         public static void main(String args[]){
+         
+         int time = 6;
+          
+         if(time>5 && time<12){
+               System.out.println("Good morning");
+         }
+         else{
+               System.out.println("Good Evening");
+         }
+         
+   }
+}
+
+
+class Areaofsquare{
+         
+          public static void main(String args[]){
+                
+             int side = 4;
+      
+             int area = side*side;
+ 
+             System.out.println("Area of Squere" +area);
+ 
+  }
+}
+
+class AreaofRectangle{
+        public static void main(String[] args) {
+
+        int length = 10;
+        int width = 5;
+
+        int area = length * width;
+
+        System.out.println("Area of Rectangle = " + area);
+    }
+
+
+
+}
+
+class LargestNo {
+    
+       public static void main(String[] args) {
+
+        int a = 1;
+        int b = 2;
+        int c = 3;
+
+        if (a > b && a > c) {
+            System.out.println(a);
+        } 
+        else if (b > c) {
+            System.out.println(b);
+        } 
+        else {
+            System.out.println(c);
+        }
+    }
+}
